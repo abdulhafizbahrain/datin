@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/apexcharts/dist/apexcharts.css"
+    />
+  </head>
+  <body class="bg-teal-50">
+    <!-- navbar -->
+
+    <!-- navbar nav -->
+    <section class="p-10">
+      <!-- chart dinas -->
+      <div class="mb-16 border rounded-xl pt-5 px-4">
+        <!-- Legend Indicator -->
+        <div
+          class="flex justify-center sm:justify-end items-center gap-x-4 mb-3 sm:mb-6"
+        ></div>
+        <!-- End Legend Indicator -->
+
+        <div id="hs-curved-area-charts"></div>
+      </div>
+      <!-- chart dinas end -->
+      <!-- card -->
+      <div id="pieChart" class="grid gap-4 grid-cols-12"></div>
+      <!-- card end -->
+
+      <!-- table -->
+      <div class="mt-5">
+        <div class="flex flex-col">
+          <div class="-m-1.5 overflow-x-auto">
+            <div class="p-1.5 min-w-full inline-block align-middle">
+              <div class="overflow-hidden">
+                <table class="min-w-full divide-y divide-gray-200">
+                  <thead class="bg-teal-500">
+                    <tr id="tHead"></tr>
+                  </thead>
+                  <tbody id="tBody"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- table end -->
+    </section>
+    <script src="./node_modules/preline/dist/preline.js"></script>
+    <script src="./node_modules/lodash/lodash.min.js"></script>
+    <script src="./node_modules/apexcharts/dist/apexcharts.min.js"></script>
+    <script src="https://preline.co/assets/js/hs-apexcharts-helpers.js"></script>
+    <script src="./js/getSheetData.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://preline.co/assets/js/hs-apexcharts-helpers.js"></script>
+
+    <script src="https://preline.co/assets/js/hs-apexcharts-helpers.js"></script>
+  </body>
+</html>

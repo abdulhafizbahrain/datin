@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "dependencies": {
+    "apexcharts": "^3.49.2",
+    "lodash": "^4.17.21",
+    "preline": "^2.3.0"
+  }
+}
