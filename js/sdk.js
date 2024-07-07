@@ -13,7 +13,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   tabelData(
     mdBidangId,
     "MASTER",
-    "SELECT F,G,H WHERE A = 'SDK' AND G > 0 AND H > 0 ",
+    "SELECT F,G,H WHERE A = 'SDK' AND F <> '' ",
     [2, 3]
   );
 

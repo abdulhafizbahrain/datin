@@ -13,7 +13,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   tabelData(
     mdPuskesmasId,
     "MASTER",
-    "SELECT F,G,H WHERE A = 'GANTI' AND G > 0 AND H > 0 ",
+    "SELECT F,G,H WHERE A = 'GANTI' AND F <> '' ",
     [2, 3]
   );
 
