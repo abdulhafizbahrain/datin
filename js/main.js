@@ -22,7 +22,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
     });
     pieChart(target, capaian, bidang);
   });
-  btnBidang();
 });
 
 function btnBidang() {
@@ -33,9 +32,6 @@ function btnBidang() {
         btnHtml +
         `
     <button
-    onClick="` +
-        element.BIDANG +
-        `();"
       class="flex items-center gap-x-3.5 py-2 px-3 w-full rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-teal-500"
     >
       ` +
@@ -46,14 +42,6 @@ function btnBidang() {
     });
     document.getElementById("btnBidang").innerHTML = btnHtml;
   });
-}
-
-function SDK() {
-  cleanContent();
-}
-
-function cleanContent() {
-  document.getElementById("content").innerHTML = "iuoiu";
 }
 
 function showTabel(sheet, query, formatPersentase = [0]) {
